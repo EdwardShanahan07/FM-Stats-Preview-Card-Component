@@ -28,3 +28,8 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--Color-Very-Dark-Blue);
+  font-family: var(--Font-Family-Primary);
+}

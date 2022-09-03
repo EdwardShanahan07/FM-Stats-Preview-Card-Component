@@ -36,6 +36,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 25px;
 }
 
 /* Card */
@@ -51,4 +52,5 @@ body {
 .card__img img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  width: 100%;
 }

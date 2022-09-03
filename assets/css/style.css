@@ -54,3 +54,35 @@ body {
   border-top-right-radius: 10px;
   width: 100%;
 }
+
+/* Card Text */
+
+.card__text {
+  text-align: center;
+  padding: 4rem 3rem;
+}
+
+.card h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
+
+.card p {
+  font-size: 1.5rem;
+  color: var(--Color-White-Transparent-1);
+  line-height: 1.6;
+  margin-bottom: 5rem;
+}
+
+.card h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.card h3 {
+  color: var(--Color-White-Transparent-2);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 3.5rem;
+}

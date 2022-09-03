@@ -6,7 +6,7 @@
 
 :root {
   --Color-Very-Dark-Blue: hsl(233, 47%, 7%); /* Backgroun Color */
-  --Color--Dark-Desaturated-Blue: hsl(244, 38%, 16%); /* Card Background */
+  --Color-Dark-Desaturated-Blue: hsl(244, 38%, 16%); /* Card Background */
   --Color-Soft-Violet: hsl(277, 64%, 61%); /* Accent */
   --Color-White: hsl(0, 0%, 100%);
   --Color-White-Transparent-1: hsla(0, 0%, 100%, 0.75); /* Main Paragraph */
@@ -32,4 +32,23 @@ html {
 body {
   background-color: var(--Color-Very-Dark-Blue);
   font-family: var(--Font-Family-Primary);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card */
+
+.card {
+  color: var(--Color-White);
+  background-color: var(--Color-Dark-Desaturated-Blue);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.card__img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }

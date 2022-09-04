@@ -32,11 +32,11 @@ html {
 body {
   background-color: var(--Color-Very-Dark-Blue);
   font-family: var(--Font-Family-Primary);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 25px;
+  padding: 8.5rem 2.5rem;
 }
 
 /* Card */

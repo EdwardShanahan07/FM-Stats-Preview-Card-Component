@@ -7,9 +7,9 @@
 :root {
   --Color-Very-Dark-Blue: hsl(233, 47%, 7%); /* Backgroun Color */
   --Color-Dark-Desaturated-Blue: hsl(244, 38%, 16%); /* Card Background */
-  --Color-Soft-Violet: hsl(277, 64%, 61%); /* Accent */
+  --Color-Soft-Violet: rgba(170, 92, 219, 0.7); /* Accent */
   --Color-White: hsl(0, 0%, 100%);
-  --Color-White-Transparent-1: hsla(0, 0%, 100%, 0.75); /* Main Paragraph */
+  --Color-White-Transparent-1: hwb(0 100% 0% / 0.75); /* Main Paragraph */
   --Color-White-Transparent-2: hsla(0, 0%, 100%, 0.6); /* State Headings */
 
   --Font-Size-Default: 15px;
@@ -49,10 +49,25 @@ body {
   border-radius: 10px;
 }
 
+.card__img {
+  position: relative;
+}
+
 .card__img img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  background-color: var(--Color-Soft-Violet);
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 /* Card Text */

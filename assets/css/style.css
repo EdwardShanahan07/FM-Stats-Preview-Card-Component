@@ -107,14 +107,19 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
   text-transform: uppercase;
+  letter-spacing: 1px;
   margin-bottom: 3.5rem;
 }
 
-/* Media Query Over 700px */
+/* Media Query Over 1200px */
 
 @media (min-width: 1200px) {
+  body {
+    padding: 17.7rem 16.5rem;
+  }
   .card {
     flex-direction: row;
+    height: 100%;
   }
 
   .card__img img {
@@ -126,6 +131,7 @@ body {
   }
 
   .card__img {
+    height: 100%;
     order: 2;
   }
 
@@ -139,6 +145,7 @@ body {
 
   .card__text {
     text-align: left;
+    padding: 7.2rem;
   }
 
   .stats {
@@ -148,5 +155,27 @@ body {
 
   .stat {
     margin-right: 6rem;
+  }
+
+  .card__text {
+    padding: 7rem;
+  }
+
+  .card h1 {
+    font-size: 3.6rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .card h1 span {
+    color: var(--Color-Soft-Violet);
+  }
+
+  .card p {
+    margin-bottom: 7.2rem;
+  }
+
+  .card h2 {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
   }
 }

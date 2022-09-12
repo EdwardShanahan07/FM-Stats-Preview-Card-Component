@@ -78,8 +78,8 @@ body {
 }
 
 .card h1 {
-  font-size: 3.2rem;
-  margin-bottom: 2rem;
+  font-size: 2.8rem;
+  margin-bottom: 1.6rem;
 }
 
 .card h1 span {
@@ -90,17 +90,17 @@ body {
   font-size: 1.5rem;
   color: var(--Color-White-Transparent-1);
   line-height: 1.6;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
 }
 
 .card h2 {
   font-size: 2.4rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .card h3 {
   color: var(--Color-White-Transparent-2);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 3.5rem;

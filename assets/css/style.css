@@ -163,7 +163,7 @@ body {
   }
 
   .card__text {
-    padding: 7rem;
+    padding: 7rem 7rem 5rem 7rem;
   }
 
   .card h1 {
